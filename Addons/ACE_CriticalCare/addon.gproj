@@ -1,0 +1,8 @@
+GameProject {
+ ID "ACECriticalCare"
+ GUID "69754BC1975CF7E5"
+ TITLE "ACE_CriticalCare"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
