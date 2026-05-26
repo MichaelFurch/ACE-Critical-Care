@@ -1,0 +1,31 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Builds / exports
+Builds/*
+!Builds/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Enfusion / Workbench generated cache-like files
+*.cache
+*.pdb
+*.ilk
+
+# OS
+.DS_Store
