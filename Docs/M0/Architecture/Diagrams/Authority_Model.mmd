@@ -1,0 +1,13 @@
+flowchart TD
+    CLIENT[Client]
+    REQUEST[Interaction Request]
+    SERVER[Server Authority]
+    STATE[Authoritative Medical State]
+    REPL[Replicated State]
+    UI[Client UI]
+
+    CLIENT --> REQUEST
+    REQUEST --> SERVER
+    SERVER --> STATE
+    STATE --> REPL
+    REPL --> UI

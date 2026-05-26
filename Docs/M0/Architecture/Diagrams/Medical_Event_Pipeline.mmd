@@ -1,0 +1,13 @@
+flowchart TD
+    REQUEST[Interaction Request]
+    VALIDATION[Server-side Validation]
+    EVENT[Medical Event]
+    STATE[Medical State Update]
+    REPLICATION[Replication]
+    FEEDBACK[Client UI / Feedback]
+
+    REQUEST --> VALIDATION
+    VALIDATION --> EVENT
+    EVENT --> STATE
+    STATE --> REPLICATION
+    REPLICATION --> FEEDBACK

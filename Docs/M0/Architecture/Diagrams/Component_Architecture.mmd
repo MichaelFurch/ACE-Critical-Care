@@ -1,0 +1,25 @@
+flowchart TD
+    ACE[ACE Anvil Medical System]
+    CORE[ACECC Core]
+    API[ACECC API]
+
+    AIRWAY[ACECC Airway]
+    BREATHING[ACECC Breathing]
+    MONITOR[ACECC Monitor]
+    MEDICATION[ACECC Medication]
+    TRAUMA[ACECC Trauma]
+    DEFIB[ACECC Defib]
+    VENTILATOR[ACECC Ventilator]
+    UI[ACECC UI]
+
+    ACE --> CORE
+    CORE --> API
+
+    API --> AIRWAY
+    API --> BREATHING
+    API --> MONITOR
+    API --> MEDICATION
+    API --> TRAUMA
+    API --> DEFIB
+    API --> VENTILATOR
+    API --> UI
