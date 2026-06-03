@@ -26,3 +26,25 @@ Define the asset planning and production foundation for ACE Critical Care.
 WP-M0-04 defines asset planning and production standards only.
 
 No full asset production is performed during this workpackage.
+
+## Task Checklist
+
+### Asset Inventory
+
+- [x] Device inventory documented
+- [x] Asset categories documented
+
+### Production Standards
+
+- [x] 3D production pipeline documented
+- [x] Poly budgets documented
+- [x] Texture standards documented
+- [x] Asset production strategy documented
+
+### Asset Review
+
+- [ ] External asset review
+
+## WP-M0-04 Status
+
+In Progress
