@@ -54,4 +54,5 @@ WP-M0-07 handles ACE hook, event and action mapping.
 
 ## WP-M0-05 Status
 
-In Progress
+DONE
+
